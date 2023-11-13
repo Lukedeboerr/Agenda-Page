@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Home - Huisplanner</title>
+    <style>
+        /* Aanvullende CSS-stijl voor zwarte pijlen in de carousel */
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: black;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            color: black;
+        }
+    </style>
 </head>
-
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">
-            <img src="path/to/your/logo.png" width="30" height="30" alt="Logo">
-        </a>
+        <img class="navbar-brand" src="https://seeklogo.com/images/B/booking-logo-937C69F36E-seeklogo.com.png" width="70" height="60" alt="logo">        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,7 +45,6 @@
             </ul>
         </div>
     </nav>
-
     <div class="container mt-5">
         <div class="row">
             <div class="col-12 text-center">
@@ -45,10 +52,30 @@
                 <p class="lead">Your go-to platform for managing your house plans and schedules.</p>
             </div>
         </div>
+        <!-- Carousel Section -->
+        <div id="houseCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active pb-3 pt-3">
+                    <img src="../fotos/1.jpg" class="d-block w-100 rounded" alt="House 1" style="max-height: 500px;">
+                </div>
+                <div class="carousel-item pb-3 pt-3">
+                    <img src="../fotos/2.jpg" class="d-block w-100 rounded" alt="House 2" style="max-height: 500px;">
+                </div>
+                <div class="carousel-item pb-3 pt-3">
+                    <img src="../fotos/3.jpg" class="d-block w-100 rounded" alt="House 3" style="max-height: 500px;">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#houseCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#houseCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- End Carousel Section -->
     </div>
-
-    <!-- Add your content and additional sections here -->
-
     <footer class="fixed-bottom bg-dark text-white text-center py-2">
         <div class="container">
             <div class="row">
@@ -73,11 +100,8 @@
         </div>
         &copy; 2023 Huisplanner. All rights reserved.
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </body>
-
 </html>
