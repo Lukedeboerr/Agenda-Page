@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Home - Huisplanner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <title>Home - Huisplanner</title>
     <style>
         /* Aanvullende CSS-stijl voor zwarte pijlen in de carousel */
         .carousel-control-prev-icon,
@@ -56,13 +55,13 @@
         <div id="houseCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active pb-3 pt-3">
-                    <img src="../fotos/1.jpg" class="d-block w-100 rounded" alt="House 1" style="max-height: 500px;">
+                    <img src="fotos/1.jpg" class="d-block w-100 rounded" alt="House 1" style="max-height: 500px;">
                 </div>
                 <div class="carousel-item pb-3 pt-3">
-                    <img src="../fotos/2.jpg" class="d-block w-100 rounded" alt="House 2" style="max-height: 500px;">
+                    <img src="fotos/2.jpg" class="d-block w-100 rounded" alt="House 2" style="max-height: 500px;">
                 </div>
                 <div class="carousel-item pb-3 pt-3">
-                    <img src="../fotos/3.jpg" class="d-block w-100 rounded" alt="House 3" style="max-height: 500px;">
+                    <img src="fotos/3.jpg" class="d-block w-100 rounded" alt="House 3" style="max-height: 500px;">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#houseCarousel" role="button" data-slide="prev">
